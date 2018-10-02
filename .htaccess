@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond $1 !^.(index\.php|assests|images|js|css|uploads|favicon.png)
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+rewriteRule ^(.*)$ ./index.php/$1 [L]
+
