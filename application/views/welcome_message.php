@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="modal-body">
             <form action="customer-orders.html" method="post">
               <div class="form-group">
-                <input id="email_modal" type="text" placeholder="email" class="form-control">
+                <input id="user_name" type="text" placeholder="username" class="form-control">
               </div>
               <div class="form-group">
                 <input id="password_modal" type="password" placeholder="password" class="form-control">
@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
             </form>
             <p class="text-center text-muted">Not registered yet?</p>
-            <p class="text-center text-muted"><a href=""><strong>Register now</strong></a></p>
+            <p class="text-center text-muted"><a href="displaySignup.php"><strong>Register now</strong></a></p>
           </div>
         </div>
       </div>
@@ -97,20 +97,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </ol>
       <!-- Wrapper for slides-->
       <div role="listbox" class="carousel-inner">
-        <div style="background-image: url('codeidniter/img/carousel3.jpg');" class="item active">
+        <div style="background-image: url('/codeigniter/img/image1.jpg');" class="item active">
           <div class="overlay"></div>
           <div class="carousel-caption">
             <h1 class="super-heading">Give Blood</h1>
           </div>
         </div>
-        <div style="background-image: url('codeigniter/img/carousel2.jpg');" class="item">
+        <div style="background-image: url('/codeigniter/img/carousel2.jpg');" class="item">
           <div class="overlay"></div>
           <div class="carousel-caption">
             <h1 class="super-heading">Your Blood Contribution is valuable to All!</h1>
 
           </div>
         </div>
-        <div style="background-image: url('codeigniter/img/carousel1.jpg');" class="item">
+        <div style="background-image: url('/codeigniter/img/image2.jpg');" class="item">
           <div class="overlay"></div>
           <div class="carousel-caption">
             <h1 class="super-heading">Assist the needy</h1>
