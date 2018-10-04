@@ -23,11 +23,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	public function displayPage(){
+	public function displayLogin(){
 		$this->load->view('login');
 	}
 
-    	public function displayPages(){
+    	public function displaySignup(){
 		$this->load->view('signup');
 	}
 }
