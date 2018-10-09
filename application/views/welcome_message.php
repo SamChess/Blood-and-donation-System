@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div id="navigation" class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="index">Home</a></li>
               <li><a href="text.html">News</a></li>
               <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Blood Banks <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h4 id="Login" class="modal-title">User Log In</h4>
           </div>
           <div class="modal-body">
-            <form action="customer-orders.html" method="post">
+            <form action="displayLogin" method="post">
               <div class="form-group">
                 <input id="user_name" type="text" placeholder="username" class="form-control">
               </div>
@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
             </form>
             <p class="text-center text-muted">Not registered yet?</p>
-            <p class="text-center text-muted"><a href="displaySignup.php"><strong>Register now</strong></a></p>
+            <p class="text-center text-muted"><a href="displaySignup"><strong>Register now</strong></a></p>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="box box-services">
                   <div class="icon"><i class="pe-7s-id"></i></div>
                   <h4 class="services-heading">Register &amp; Log in</h4>
-                  <p>Create your own account and access free of charges. </p>
+                  <p>Create your own account and access free of charge. </p>
                 </div>
               </div>
             </div>
