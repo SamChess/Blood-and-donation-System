@@ -23,8 +23,8 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#">A link</a></li>
-        <li><a href="#">Another link</a></li>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Blood Bank</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
