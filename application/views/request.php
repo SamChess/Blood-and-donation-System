@@ -18,11 +18,6 @@
 
 <form method="post" action="<?php echo base_url()?> recipient_view/form_validation">
 
-	<?php
-		if($this->uri->segment(2) == "inserted"){
-			echo "<p class = "text-success"> Data Inserted</p>";
-		}
-	?>
 
 	<h3><b>Kindly Enter your Details</b></h3>
   <div class="form-group">

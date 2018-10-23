@@ -35,7 +35,7 @@
 							<td><?php echo $row->id; ?></td>
 							<td><?php echo $row->type; ?></td>
 							<td><?php echo $row->status; ?></td>
-							<td><a href ="index.php/request">Request</a> </td>
+							<td><a href="<?php echo site_url('request') ?>">Request</a> </td>
 						</tr>
 					<?php
 				}
