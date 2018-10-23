@@ -7,5 +7,10 @@ class Recipient_model extends CI_Model {
         $query = $this->db->query("SELECT * FROM donors ORDER BY id DESC");
     	return $query;
     }
+
+    function insert_data($data){
+    	$this->db->insert("request",$data);
+
+    }
 }
 ?>
