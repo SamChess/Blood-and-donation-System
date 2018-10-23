@@ -6,5 +6,4 @@ $this->load->view('templates/_parts/admin_master_header_view'); ?>
         <?php echo $the_view_content; ?>
     </div>
 </div>
-<?php $this->load->view('templates/_parts/admin_master_footer_view');
-?>
+<?php $this->load->view('templates/_parts/admin_master_footer_view');?>
